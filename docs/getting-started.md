@@ -1,4 +1,4 @@
-# Gettings started withh Pytest
+# Getting started with Pytest
 
 1. `python3 --version` # check python version (root directory)
 2. `python3 -m venv venv --prompt .` # create virtual environment (root directory)
@@ -30,3 +30,11 @@
 11. `cards` # list cards (my-turn directory)
 12. `cards delete 1` # delete cards (my-turn directory)
 13. `cards` # list cards (my-turn directory)
+
+
+# Pytest
+1. `pytest --version` # check pytest version (root directory)
+2. `pytest` # run tests  (my-turn directory),
+3. `pytest -v` # run tests with verbose output (my-turn directory),
+4. `pytest -v -s` # run tests with verbose output and print statements (my-turn directory),
+5. `pytest -v test_card.py` # run specific tests based on file name in from ch2 dir (my-turn/ch2 directory),
