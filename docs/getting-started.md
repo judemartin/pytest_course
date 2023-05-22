@@ -14,3 +14,19 @@
 12. `which python3` # check python location, should be in venv
 13. `which pytest` # check pytest location, should be in venv
 14. `pytest` # run tests  (my-turn directory),  
+
+
+# Cards 
+1. `cards add do something --owener Jude` # add card (my-turn directory)
+2. `cards add do somethine else` # add card (my-turn directory)
+3. `cards` # list cards (my-turn directory)
+4. `cards config` # list config (my-turn directory)
+5. `cards update 2 --owner Jude` # update card (my-turn directory)
+6. `cards` # list cards (my-turn directory)
+7. `cards start 1`
+8. `cards` # list cards (my-turn directory)
+9. `cards finish 1`
+10. `cards start 2` # list cards (my-turn directory)
+11. `cards` # list cards (my-turn directory)
+12. `cards delete 1` # delete cards (my-turn directory)
+13. `cards` # list cards (my-turn directory)
