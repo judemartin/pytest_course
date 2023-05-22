@@ -38,3 +38,10 @@
 3. `pytest -v` # run tests with verbose output (my-turn directory),
 4. `pytest -v -s` # run tests with verbose output and print statements (my-turn directory),
 5. `pytest -v test_card.py` # run specific tests based on file name in from ch2 dir (my-turn/ch2 directory),
+6. `pytest -v test_classes.py` # run test contained in class
+7. `pytest -v test_classes.py::TestEquality::test_equality_with_diff_ids` # run a single test contained in class `(copy from the test output)`
+8. `pytest -v test_classes.py::TestEquality` # run all the tests contained it the class TestEquality.
+9. ` pytest --tb=no` # Test summary from pytest, run inside the `my-turn/ch2` directory, tb is for traceback
+10. `pytest --tb=no -k fail -v` # run tests that contain the word fail in the name, -k is for keyword      
+11. `pytest --tb=no -k "not fail" -v` # run tests that do not contain the word fail in the name, -k is for keyword (keyword with logic)
+12. `pytest --tb=no -k "equal and not fail" -v` # there are two keywords, equal and not fail, (create any number of combinations with logic) _(run handful of tests)_

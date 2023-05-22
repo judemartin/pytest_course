@@ -8,7 +8,6 @@ def test_field_access():
     assert c.state == "todo"
     assert c.id == 123
 
-
 def test_defaults():
     c = Card()
     assert c.summary is None
