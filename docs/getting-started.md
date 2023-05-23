@@ -45,3 +45,6 @@
 10. `pytest --tb=no -k fail -v` # run tests that contain the word fail in the name, -k is for keyword      
 11. `pytest --tb=no -k "not fail" -v` # run tests that do not contain the word fail in the name, -k is for keyword (keyword with logic)
 12. `pytest --tb=no -k "equal and not fail" -v` # there are two keywords, equal and not fail, (create any number of combinations with logic) _(run handful of tests)_
+13. `pytest -s test_db_fix.py`
+14. `pytest --setup-show test_db_ctx_fix.py` # show the setup and teardown of the test fixture (run inside the `my-turn/ch3/learning_fixtures` directory)
+`
